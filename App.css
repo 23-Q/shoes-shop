@@ -6,23 +6,24 @@
 @font-face {font-family: notoL; src: url('./font/NotoSansKR-Light.otf');}
 @font-face {font-family: notoT; src: url('./font/NotoSansKR-Thin.otf');}
 
-.App{overflow-x: hidden; background: #ddd;}
+.App { overflow-x: hidden; background: #ddd; }
 
-body{position: relative; background: #ddd;}
+body { position: relative; background: #ddd; }
 
 body::-webkit-scrollbar { width: 6px; }
-body::-webkit-scrollbar-thumb { background-color: rgba(255, 255, 255, 0.3);
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;}
 body::-webkit-scrollbar-track { background-color: #222; }
 
 *{
-  box-sizing:border-box;
-  color:black;
+  box-sizing: border-box;
+  color: black;
   font-family: notoL;
 }
-button{border:none; cursor: pointer; border-radius: 5px; line-height: 0px;}
-span{font-family: notoM; opacity: 0.6; font-size: 17px;}
-.detail-price span{ font-size: 20px;}
+button { border:none; cursor: pointer; border-radius: 5px; line-height: 0px; }
+span { font-family: notoM; opacity: 0.6; font-size: 17px; }
+.detail-price span { font-size: 20px; }
 
 .top-nav{
   z-index: 2;
